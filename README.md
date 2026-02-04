@@ -55,6 +55,11 @@ Contributions are welcome! Please feel free to submit a Pull Request or open an 
 
 ---
 
+## 💡 Suggestions & Feedback
+Have ideas for new features or improvements? We'd love to hear from you! Please visit the [Issues](https://github.com/kaneki654/MLC/issues) tab on our GitHub repository to submit your suggestions or report any bugs. Your feedback helps make MLCleaner better for everyone.
+
+---
+
 ## 📜 License
 Distributed under the MIT License. See `LICENSE` for more information.
 
