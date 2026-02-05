@@ -14,7 +14,19 @@ MLCleaner now comes in two flavors:
 - **Desktop (GUI):** A beautiful, professional interface built with CustomTkinter.
 - **Terminal (CLI):** A powerful, high-speed terminal interface built with `rich` for power users and server environments.
 
-👉 **[Explore MLCleaner-CLI Source](./CLI)**
+👉 **[Explore MLCleaner-CLI Source](./CLI)** | **[Detailed Feature Matrix](./FEATURES.md)** | **[Testing Guide](./TESTING.md)**
+
+---
+
+## 🔍 Implementation Verification
+We believe in 100% transparency. Every claimed feature is linked to its source code implementation to ensure the community can validate our work.
+
+- **Cleaning Core:** [engine.py](https://github.com/kaneki654/MLC/blob/main/CLI/mlc_cli/cleaners/engine.py)
+- **Kernel Tuner:** [system_cleaner.py](https://github.com/kaneki654/MLC/blob/main/CLI/mlc_cli/cleaners/system_cleaner.py)
+- **Health Engine:** [health_manager.py](https://github.com/kaneki654/MLC/blob/main/CLI/mlc_cli/cleaners/health_manager.py)
+- **Zero-Lag Components:** [components.py](https://github.com/kaneki654/MLC/blob/main/CLI/mlc_cli/ui/components.py) (GUI only)
+
+See the full **[Feature Matrix](./FEATURES.md)** for a complete mapping.
 
 ---
 
