@@ -1,69 +1,86 @@
-# MLCleaner (MyLightCleaner)
+# MLCleaner (MyLightCleaner) v0.2
+### The Ultra-Lightweight System Optimizer for Linux
 
 [![Website](https://img.shields.io/badge/Website-mylightcleaner.vercel.app-blue?style=for-the-badge)](https://mylightcleaner.vercel.app/)
 [![Platform](https://img.shields.io/badge/Platform-Linux-orange?style=for-the-badge)](https://github.com/kaneki654/MLC)
+[![Python](https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python)](https://www.python.org/)
 
-**MLCleaner** is a professional, lightweight, and powerful system optimization tool designed to keep your Linux environment fast, clean, and organized. Built with a focus on efficiency and user experience, it provides a comprehensive suite of cleaning and maintenance tools.
+**MLCleaner** is a professional, **high-performance system cleaner** and **desktop optimizer** designed specifically for **Linux distributions** (Ubuntu, Debian, Fedora, Arch, etc.). It helps you reclaim gigabytes of disk space, monitor system health, and secure your privacy with a modern, intuitive interface.
+
+---
+
+## 🔥 Why MLCleaner?
+If you are looking for a **Stacer alternative** or a more modern **BleachBit alternative**, MLCleaner provides a faster, developer-centric approach to system maintenance.
+
+- **Lightweight:** Minimal CPU and RAM footprint.
+- **Developer First:** Built-in support for cleaning **Docker**, **NPM**, **Python (Pip)**, and **Git** artifacts.
+- **Privacy Focused:** Securely prunes browser history and sensitive caches.
+- **Intelligent:** Real-time **SSD Health monitoring** and **security permission analysis**.
 
 ---
 
 ## 🚀 Key Features
 
-### 🧹 Comprehensive Cleaning
-*   **System Junk:** Clear thumbnail caches, APT package caches, and temporary system files.
-*   **Browser Cleanup:** Support for Chrome, Chromium, and Firefox—remove caches and redundant code caches.
-*   **App-Specific Cleaning:** Deep clean data from Flatpak, Snap, Discord, and Spotify.
-*   **Developer Optimization:** Reclaim space from Pip, NPM, Yarn, Cargo registry, and Gradle caches.
+### 🧹 Advanced Junk Removal
+*   **System Maintenance:** Clear **APT cache**, thumbnail databases, and `/tmp` directories.
+*   **Browser Privacy:** Support for **Chrome, Chromium, Firefox, and Brave**—remove trackers and redundant caches.
+*   **Modern App Support:** Deep clean **Flatpak runtimes**, **Snap packages**, Discord, and Spotify data.
+*   **Dev Center:** One-click cleanup for **Pip, NPM, Yarn, Cargo registry, and Gradle** project bloat.
 
-### 🔍 Deep Analysis
-*   **Ghost File Finder:** Identify deleted files still held open by processes that are consuming disk space.
-*   **Broken Symlinks:** Locate and remove invalid symbolic links across your system.
-*   **Old Log Management:** Automatically detect and prune logs older than a specified duration.
-*   **Large File Finder:** Visualize and manage the largest files on your storage.
-*   **Duplicate Detection:** Efficiently find and remove duplicate files using MD5 hashing.
+### 🏥 System Health & Security (New in v0.2)
+*   **Hardware Intelligence:** Monitor SSD/HDD longevity using **SMART data**.
+*   **Security Analyzer:** Scan for world-writable file risks in your home directory.
+*   **Permission Hardening:** One-click fix to secure sensitive file permissions.
+*   **Root Integration:** Native, secure password handling for administrative optimizations.
 
-### 🛡️ Data Safety
-*   **Zero-Space Backups:** Create instant system snapshots using hard-link technology, ensuring your data is safe without consuming extra disk space.
-*   **Snapshot Comparison:** Compare your current system state with backups to track changes.
-*   **Easy Restoration:** Restore files from snapshots with a single click.
+### 🔍 Deep Analysis Tools
+*   **Duplicate Finder:** Identify identical files using **MD5 cryptographic hashing**.
+*   **Large Cluster Explorer:** Visual block-based analysis of large file storage.
+*   **Broken Symlink Detector:** Locate and repair invalid system shortcuts.
+*   **Ghost Process Monitor:** Find deleted files still consuming space via open file descriptors.
 
-### 📊 Modern User Interface
-*   **Dynamic Dashboard:** Real-time system health and storage visualization.
-*   **Interactive Graphs:** Deep insights into your disk usage patterns.
-*   **Professional Design:** A sleek, intuitive UI with built-in theme support.
-
----
-
-## 📥 Installation & Download
-
-You can download the MLCleaner desktop application directly from our official website:
-
-👉 **[Download MLCleaner](https://mylightcleaner.vercel.app/)**
+### 🛡️ Data Safety & Snapshots
+*   **Zero-Space Backups:** Instant directory snapshots using **hard-link technology**.
+*   **Rollback System:** Quickly restore files from previous snapshots.
 
 ---
 
-## 🛠️ Tech Stack
-*   **Language:** Python
-*   **UI Framework:** Modern UI components with custom themes
-*   **Core:** Advanced system-level integration for Linux performance
+## 📥 Installation
+
+Download the latest **.deb** package for Debian/Ubuntu-based systems directly from our official page:
+
+👉 **[Download MLCleaner v0.2](https://mylightcleaner.vercel.app/)**
+
+```bash
+# To install the downloaded .deb package
+sudo dpkg -i MLCleaner_v0.2_all.deb
+sudo apt install -f
+```
 
 ---
 
-## 🤝 Contributing
-Contributions are welcome! Please feel free to submit a Pull Request or open an issue on our [GitHub repository](https://github.com/kaneki654/MLC.git).
+## 🛠️ Built With
+- **Python 3**: Core logic and system integration.
+- **CustomTkinter**: Modern, GPU-accelerated UI components.
+- **Psutil**: High-precision resource monitoring.
+- **Smartmontools**: Advanced hardware health diagnostics.
 
 ---
 
-## 💡 Suggestions & Feedback
-Have ideas for new features or improvements? We'd love to hear from you! Please visit the [Issues](https://github.com/kaneki654/MLC/issues) tab on our GitHub repository to submit your suggestions or report any bugs. Your feedback helps make MLCleaner better for everyone.
+## 🤝 Contributing & Feedback
+Contributions are welcome! If you have ideas for **Linux optimization** or feature requests, feel free to:
+1. Open a **Pull Request**.
+2. Submit an **Issue** on [GitHub](https://github.com/kaneki654/MLC/issues).
 
 ---
 
 ## 📜 License
-Distributed under the MIT License. See `LICENSE` for more information.
+Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ---
 
+**Keywords:** Linux Cleaner, System Optimizer, Disk Space Management, Ubuntu Optimizer, Python Desktop App, Junk Remover, BleachBit Alternative, Stacer Alternative, Docker Prune GUI, Flatpak Cleanup, Linux Security Tool.
+
 <p align="center">
-  Developed By G0Ju.VBS
+  Developed By <strong>G0Ju.VBS</strong>
 </p>
