@@ -1,4 +1,4 @@
-# MLCleaner (MyLightCleaner) v0.2
+# MLCleaner (MyLightCleaner) v0.3
 ### The Ultra-Lightweight System Optimizer for Linux
 
 [![Website](https://img.shields.io/badge/Website-mylightcleaner.vercel.app-blue?style=for-the-badge)](https://mylightcleaner.vercel.app/)
@@ -27,11 +27,11 @@ If you are looking for a **Stacer alternative** or a more modern **BleachBit alt
 *   **Modern App Support:** Deep clean **Flatpak runtimes**, **Snap packages**, Discord, and Spotify data.
 *   **Dev Center:** One-click cleanup for **Pip, NPM, Yarn, Cargo registry, and Gradle** project bloat.
 
-### 🏥 System Health & Security (New in v0.2)
-*   **Hardware Intelligence:** Monitor SSD/HDD longevity using **SMART data**.
-*   **Security Analyzer:** Scan for world-writable file risks in your home directory.
-*   **Permission Hardening:** One-click fix to secure sensitive file permissions.
-*   **Root Integration:** Native, secure password handling for administrative optimizations.
+### 🏥 System Health & Security (New in v0.3)
+*   **System Optimizer:** Deep RAM flushing and Swap memory defragmentation.
+*   **Kernel Tuning:** Optimized profiles for Gaming and Battery life.
+*   **Safe Cleaning:** Integrated **Trash support** and secure DOD-level shredding.
+*   **Seamless Auth:** Internal password dialogs for a professional, no-terminal experience.
 
 ### 🔍 Deep Analysis Tools
 *   **Duplicate Finder:** Identify identical files using **MD5 cryptographic hashing**.
@@ -49,11 +49,11 @@ If you are looking for a **Stacer alternative** or a more modern **BleachBit alt
 
 Download the latest **.deb** package for Debian/Ubuntu-based systems directly from our official page:
 
-👉 **[Download MLCleaner v0.2](https://mylightcleaner.vercel.app/)**
+👉 **[Download MLCleaner v0.3](https://mylightcleaner.vercel.app/)**
 
 ```bash
 # To install the downloaded .deb package
-sudo dpkg -i MLCleaner_v0.2_all.deb
+sudo dpkg -i MLCleaner_v0.3_all.deb
 sudo apt install -f
 ```
 
