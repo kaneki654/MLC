@@ -100,10 +100,6 @@ Contributions are welcome! If you have ideas for **Linux optimization** or featu
 - **Data Safety:** Zero-space snapshots using hard-link technology.
 
 ---
-
-## 📜 License
-Distributed under the **MIT License**. See `LICENSE` for more information.
-
 ---
 
 **Keywords:** Linux Cleaner, System Optimizer, Disk Space Management, Ubuntu Optimizer, Python Desktop App, Junk Remover, BleachBit Alternative, Stacer Alternative, Docker Prune GUI, Flatpak Cleanup, Linux Security Tool.
