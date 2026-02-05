@@ -63,12 +63,16 @@ sudo dpkg -i MLCleaner_v0.3_all.deb
 sudo apt install -f
 ```
 
-### CLI Version (Manual)
+### CLI Version (Fast Installation)
+Install directly from the source without cloning:
 ```bash
-git clone https://github.com/kaneki654/MLC.git
-cd MLC/CLI
-pip install -r requirements.txt
-python3 main.py
+pip install git+https://github.com/kaneki654/MLC.git#subdirectory=CLI
+```
+*Alternatively, if installing from a local clone:*
+```bash
+cd CLI
+pip install .
+mlc-cli
 ```
 
 ---

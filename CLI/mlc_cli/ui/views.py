@@ -3,7 +3,7 @@ from rich.table import Table
 from rich.live import Live
 from rich.progress import Progress, SpinnerColumn, TextColumn, BarColumn
 from rich.panel import Panel
-from ui.renderer import console, format_size
+from .renderer import console, format_size, render_menu
 import time
 
 def scan_view(controller):
@@ -84,7 +84,6 @@ def optimizer_view(controller):
         "Back"
     ]
     
-    from ui.renderer import render_menu
     render_menu(options)
     
     choice = console.input("\nSelect option: ")

@@ -4,13 +4,13 @@ import os
 import shutil
 import time
 import subprocess
-from cleaners.system_cleaner import SystemOptimizer, StartupManager
-from cleaners.package_manager import PackageManager
-from cleaners.health_manager import HealthManager
-from cleaners.engine import CleaningEngine
-from tools.analyzers import FileAnalyzer
-from tools.backup import BackupManager
-from core.auth import get_password
+from ..cleaners.system_cleaner import SystemOptimizer, StartupManager
+from ..cleaners.package_manager import PackageManager
+from ..cleaners.health_manager import HealthManager
+from ..cleaners.engine import CleaningEngine
+from ..tools.analyzers import FileAnalyzer
+from ..tools.backup import BackupManager
+from .auth import get_password
 
 class CLIController:
     def __init__(self):
@@ -53,7 +53,7 @@ class CLIController:
                     "mountpoint": p.mountpoint, 
                     "percent": u.percent, 
                     "free": u.free, 
-                    "total": u.total,
+                    "total": u.total, 
                     "fstype": p.fstype
                 })
             except: pass

@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mlc-cli"
+version = "0.3.0.1"
+authors = [
+  { name="MLCleaner Team", email="support@mlcleaner.com" },
+]
+description = "High-speed Terminal interface for MLCleaner"
+readme = "README.md"
+requires-python = ">=3.10"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: POSIX :: Linux",
+]
+dependencies = [
+    "rich",
+    "psutil",
+]
+
+[project.urls]
+"Homepage" = "https://mylightcleaner.vercel.app/"
+"Bug Tracker" = "https://github.com/kaneki654/MLC/issues"
+
+[project.scripts]
+mlc-cli = "mlc_cli.main:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["mlc_cli*"]

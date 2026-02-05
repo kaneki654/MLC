@@ -1,9 +1,10 @@
 #!/usr/bin/env python3
 import sys
 import os
-from core.controller import CLIController
-from ui.renderer import render_header, render_sys_info, render_menu, console, Panel
-from ui.views import scan_view, process_view, optimizer_view
+from .core.controller import CLIController
+from .ui.renderer import render_header, render_sys_info, render_menu, console
+from .ui.views import scan_view, process_view, optimizer_view
+from rich.panel import Panel
 
 VERSION = "0.3.0.1"
 
@@ -82,7 +83,10 @@ def dev_hub(controller):
         console.print("[green]Build artifacts removed.[/green]")
 
 def show_history():
-    history_file = os.path.join(os.path.dirname(__file__), "UPDATE_LOG.txt")
+    # Correct path to UPDATE_LOG.txt when running as a package
+    base_dir = os.path.dirname(__file__)
+    history_file = os.path.join(base_dir, "UPDATE_LOG.txt")
+    
     if os.path.exists(history_file):
         with open(history_file, 'r') as f:
             from rich.markdown import Markdown
