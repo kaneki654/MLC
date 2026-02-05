@@ -74,6 +74,33 @@ Contributions are welcome! If you have ideas for **Linux optimization** or featu
 
 ---
 
+## 📜 Version History
+
+### [v0.3.0] - 2026-02-05 (Current)
+**Intelligence Update: Power & Control**
+- **System Optimizer:** Real-time RAM/Swap flushing and Kernel PageCache purging.
+- **Kernel Tuner:** Integrated profiles for Gaming, Balanced, and Power Saving.
+- **Global SCAN:** Expanded "Large Files" to root-level global search (50MB - 1TB+).
+- **Native Trash:** Added "Move to Trash" support for safer cleaning operations.
+- **Stability:** Fixed thread-safety `TclError` and implemented UI row pooling for Zero-Lag.
+
+### [v0.2.0] - 2026-02-05
+**Security Update: Health & Monitoring**
+- **SMART Monitor:** Added physical drive longevity and health tracking.
+- **Permission Analyzer:** Identify and harden world-writable files in Home directory.
+- **Package Pro:** Detection of orphaned DEB configs and unused Flatpak runtimes.
+- **In-App Auth:** Professional secure password dialog for administrative tasks.
+
+### [v0.1.0] - 2026-02-04
+**Initial Release: The Foundation**
+- **Hyper-Scan Engine:** Multi-threaded traversal of 300+ system junk targets.
+- **Process Sentinel:** Real-time task manager with high-precision resource tracking.
+- **Developer Hub:** Specialized cleanup for Docker, NPM, Pip, and Git artifacts.
+- **File Explorer:** Integrated text-based instant preview for rapid manual cleanup.
+- **Data Safety:** Zero-space snapshots using hard-link technology.
+
+---
+
 ## 📜 License
 Distributed under the **MIT License**. See `LICENSE` for more information.
 
