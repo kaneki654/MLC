@@ -1,7 +1,6 @@
 # MLCleaner (MyLightCleaner)
 
 [![Website](https://img.shields.io/badge/Website-mylightcleaner.vercel.app-blue?style=for-the-badge)](https://mylightcleaner.vercel.app/)
-[![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)](LICENSE)
 [![Platform](https://img.shields.io/badge/Platform-Linux-orange?style=for-the-badge)](https://github.com/kaneki654/MLC)
 
 **MLCleaner** is a professional, lightweight, and powerful system optimization tool designed to keep your Linux environment fast, clean, and organized. Built with a focus on efficiency and user experience, it provides a comprehensive suite of cleaning and maintenance tools.
