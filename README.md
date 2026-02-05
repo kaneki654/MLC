@@ -9,6 +9,15 @@
 
 ---
 
+## 💻 GUI and CLI Support
+MLCleaner now comes in two flavors:
+- **Desktop (GUI):** A beautiful, professional interface built with CustomTkinter.
+- **Terminal (CLI):** A powerful, high-speed terminal interface built with `rich` for power users and server environments.
+
+👉 **[Explore MLCleaner-CLI Source](./CLI)**
+
+---
+
 ## 🔥 Why MLCleaner?
 If you are looking for a **Stacer alternative** or a more modern **BleachBit alternative**, MLCleaner provides a faster, developer-centric approach to system maintenance.
 
@@ -39,14 +48,11 @@ If you are looking for a **Stacer alternative** or a more modern **BleachBit alt
 *   **Broken Symlink Detector:** Locate and repair invalid system shortcuts.
 *   **Ghost Process Monitor:** Find deleted files still consuming space via open file descriptors.
 
-### 🛡️ Data Safety & Snapshots
-*   **Zero-Space Backups:** Instant directory snapshots using **hard-link technology**.
-*   **Rollback System:** Quickly restore files from previous snapshots.
-
 ---
 
 ## 📥 Installation
 
+### Desktop Version (.deb)
 Download the latest **.deb** package for Debian/Ubuntu-based systems directly from our official page:
 
 👉 **[Download MLCleaner v0.3](https://mylightcleaner.vercel.app/)**
@@ -57,11 +63,31 @@ sudo dpkg -i MLCleaner_v0.3_all.deb
 sudo apt install -f
 ```
 
+### CLI Version (Manual)
+```bash
+git clone https://github.com/kaneki654/MLC.git
+cd MLC/CLI
+pip install -r requirements.txt
+python3 main.py
+```
+
+---
+
+## 📦 Releases
+
+| Version | Type | Release Date | Status |
+|---------|------|--------------|--------|
+| **v0.3.0.1** | CLI | 2026-02-05 | [Latest] |
+| **v0.3.0** | GUI | 2026-02-05 | [Stable] |
+| **v0.2.0** | GUI | 2026-02-05 | Legacy |
+| **v0.1.0** | GUI | 2026-02-04 | Initial |
+
 ---
 
 ## 🛠️ Built With
 - **Python 3**: Core logic and system integration.
-- **CustomTkinter**: Modern, GPU-accelerated UI components.
+- **CustomTkinter**: Modern, GPU-accelerated GUI.
+- **Rich**: Beautiful CLI formatting and progress tracking.
 - **Psutil**: High-precision resource monitoring.
 - **Smartmontools**: Advanced hardware health diagnostics.
 
@@ -76,33 +102,28 @@ Contributions are welcome! If you have ideas for **Linux optimization** or featu
 
 ## 📜 Version History
 
-### [v0.3.0] - 2026-02-05 (Current)
+### [v0.3.0.1] - 2026-02-05 (CLI)
+- **Terminal Optimization:** Modular architecture for high-speed terminal interaction.
+- **Rich TUI:** Tables, panels, and live updates in the terminal.
+- **Process Sentinel (Live):** Real-time process monitoring with a 3-second refresh cycle.
+- **Internal Auth:** Integrated `getpass` for secure `sudo` operations.
+
+### [v0.3.0] - 2026-02-05 (GUI)
 **Intelligence Update: Power & Control**
 - **System Optimizer:** Real-time RAM/Swap flushing and Kernel PageCache purging.
 - **Kernel Tuner:** Integrated profiles for Gaming, Balanced, and Power Saving.
-- **Global SCAN:** Expanded "Large Files" to root-level global search (50MB - 1TB+).
-- **Native Trash:** Added "Move to Trash" support for safer cleaning operations.
-- **Stability:** Fixed thread-safety `TclError` and implemented UI row pooling for Zero-Lag.
+- **Global SCAN:** Expanded "Large Files" to root-level global search.
+- **Native Trash:** Added "Move to Trash" support.
 
 ### [v0.2.0] - 2026-02-05
 **Security Update: Health & Monitoring**
-- **SMART Monitor:** Added physical drive longevity and health tracking.
-- **Permission Analyzer:** Identify and harden world-writable files in Home directory.
-- **Package Pro:** Detection of orphaned DEB configs and unused Flatpak runtimes.
-- **In-App Auth:** Professional secure password dialog for administrative tasks.
-
-### [v0.1.0] - 2026-02-04
-**Initial Release: The Foundation**
-- **Hyper-Scan Engine:** Multi-threaded traversal of 300+ system junk targets.
-- **Process Sentinel:** Real-time task manager with high-precision resource tracking.
-- **Developer Hub:** Specialized cleanup for Docker, NPM, Pip, and Git artifacts.
-- **File Explorer:** Integrated text-based instant preview for rapid manual cleanup.
-- **Data Safety:** Zero-space snapshots using hard-link technology.
+- **SMART Monitor:** Physical drive longevity tracking.
+- **Permission Analyzer:** Harden world-writable files in Home directory.
 
 ---
 ---
 
-**Keywords:** Linux Cleaner, System Optimizer, Disk Space Management, Ubuntu Optimizer, Python Desktop App, Junk Remover, BleachBit Alternative, Stacer Alternative, Docker Prune GUI, Flatpak Cleanup, Linux Security Tool.
+**Keywords:** Linux Cleaner, System Optimizer, CLI System Tools, Ubuntu Optimizer, Python Desktop App, Terminal Junk Remover, BleachBit Alternative, Stacer Alternative, Docker Prune GUI, Flatpak Cleanup, Linux Security Tool.
 
 <p align="center">
   Developed By <strong>G0Ju.VBS</strong>

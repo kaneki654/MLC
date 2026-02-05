@@ -1,0 +1,50 @@
+# MLCleaner v0.3.0.1 - CLI Release
+
+## CLI Improvements
+- **Terminal Optimization**: Fully modular architecture designed for high-speed terminal interaction.
+- **Rich TUI**: Professional interface using the `rich` library for tables, panels, and live updates.
+- **Process Sentinel (Live)**: `htop`-style real-time process monitoring with a 3-second refresh cycle.
+- **Internal Auth**: Integrated `getpass` authentication for secure `sudo` operations without external popups.
+
+# MLCleaner v0.3 - Changelog & Fix Report
+
+## Stability & Logic Refinements (Latest)
+- **Toolbox Engine**: Renamed "Large Files" to **SCAN** and expanded scope to **Root-level global search** (starting from `/`).
+- **Data Thresholds**: Set a smart discovery range of **50MB to 1TB+** for the SCAN utility.
+- **Thread Safety**: Fixed critical `TclError` by adding `winfo_exists` checks, preventing crashes when navigating away during active scans.
+- **Terminal Silence**: Suppressed all background command outputs to ensure zero clutter when running as a packaged app.
+- **Authentication**: Fixed "Permission Denied" errors by switching to absolute paths and using `tee` for kernel writes.
+
+## Previous Fixes
+- **Seamless Auth**: Integrated an in-app Password Dialog using `sudo -S`. No terminal popups.
+- **Zero-Lag UI**: 
+  - Replaced animated sidebar with a professional **Icon Rail** (optimized for AMD A4).
+  - Implemented **Row Pooling** for Task Manager (Process Sentinel) to eliminate flicker.
+- **Hyper-Scan v3**:
+  - Scans **Global Filesystem** including **Hidden Files** (`.cache`, `.local`).
+  - Correct formatting for Terabyte (TB) and Petabyte (PB) data discovery.
+- **High Visibility**: Forced **White Text** and **2px Borders** for 100% visibility in Dark Themes.
+
+## New Features (v0.3 Stable)
+1.  **🚀 System Optimizer**:
+    - **RAM Boost**: Flushes kernel PageCache/Inodes.
+    - **Swap Refresh**: Safe defragmentation of virtual memory.
+    - **Kernel Tuner**: High-performance profiles (Gaming/Balanced/Battery).
+    - **Startup Manager**: Control boot application load.
+
+2.  **⚡ Process Sentinel**:
+    - Flicker-free Task Manager with **Manual Boost** engine.
+    - Advanced metadata: Uptime and exact command-line paths.
+
+3.  **🏥 Health & Security**:
+    - **Permission Analyzer**: Scans for world-writable security risks.
+    - **SMART Monitor**: Real-time physical drive health tracking.
+
+4.  **📦 Dev Command Center**:
+    - Professional **Tabbed Interface** for rapid access.
+    - 50+ tools for Docker, Node, Python, C++, and Git.
+
+5.  **🛡️ Safe Cleaning**:
+    - **Trash Mode**: Native integration with system Trash for "Undo" capability.
+    - **Secure Shred**: DOD-standard file overwriting.
+    - **Smart History**: Persistent session logging in JSON format.
