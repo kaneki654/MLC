@@ -1,0 +1,13 @@
+# MLCleaner v0.3.1.2 - Power User & Root Integration
+- **Privilege Elevation**: Added "🛡️ RUN AS ROOT" button in the dashboard to restart the app with full system access (using pkexec).
+- **Silent Root Deletion**: When running as root, MLCleaner can now clean system-protected files (logs, apt caches, journals) without permission errors.
+- **Password Caching**: If not running as root, the app caches your password for the session after the first prompt, so you don't have to type it every time.
+- **Session Intelligence**: The "Scan All Junk" engine now intelligently switches to sudo-mode for restricted paths if it has a password/root access.
+- **UI Status**: New "ROOT ACCESS" indicator in the dashboard to let you know when the app has full power.
+
+# MLCleaner v0.3.1 - AMD A4 Performance Update
+- **Performance**: Optimized Graph rendering by removing expensive splines and stippling.
+- **Performance**: Improved Duplicate Detection with "Fast Hash" mode (Head/Tail hashing) before full MD5 validation.
+- **Hardware Intelligence**: New "System Information" module with detailed OS, CPU, and Drive stats.
+- **Gaming Mode**: New "Gaming Boost" engine that combines RAM clearing with CPU Governor optimization.
+- **Autostart Control**: Integrated Startup Manager to toggle background apps on/off.
