@@ -7,6 +7,10 @@
 
 **MLCleaner** is a professional, **high-performance system cleaner** and **desktop optimizer** designed specifically for **Linux distributions** (Ubuntu, Debian, Fedora, Arch, etc.). Built from the ground up to run flawlessly on legacy processors like the **AMD A4**, it helps you reclaim gigabytes of disk space, monitor system health, and push your hardware to the absolute limit.
 
+<p align="center">
+  <img src="./dashboard.png" alt="MLCleaner Dashboard" width="800">
+</p>
+
 ---
 
 ## 💻 GUI and CLI Support
